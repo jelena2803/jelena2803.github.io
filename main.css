@@ -168,3 +168,10 @@ h1 {
 	}
 
 }
+
+/*small devices*/
+@media (max-width: 767px) {
+	.menuItem {
+		width: 100%;
+	}
+}
