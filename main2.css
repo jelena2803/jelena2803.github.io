@@ -174,5 +174,9 @@ p {
 }
 
 
-
+@media (max-width: 767px) {
+	.description {
+		padding: 15px;
+	}
+}
 
