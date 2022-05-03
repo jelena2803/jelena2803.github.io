@@ -1,0 +1,122 @@
+body {
+	background-color: beige;
+}
+
+#header-nav {
+	border: 1px solid black;
+	border-radius: 0;
+}
+
+.navbar, .all-food {
+	background-color: grey;
+}
+
+
+.navbar-brand p {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, #main-content a:hover, #main-content a:focus, .all-food a:hover, .all-food a:focus  {
+	text-decoration: none;
+}
+
+.all-food {
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.all-food p {
+	padding: 5px;
+}
+
+.all-food span {
+	color: black;
+}
+
+h2 {
+	margin-bottom: 40px;
+	text-decoration: none;
+}
+
+h2, h3 {
+	font-weight: bold;
+	color: black;
+}
+
+
+/*h3 {
+	line-height: 1.5;
+}*/
+
+#collapsable-nav {
+	background-color: #c7c7a9;
+}
+
+#nav-list>li>a {
+    color: black;
+}
+
+@media (min-width: 768px) {
+	#collapsable-nav {
+	background-color: grey;
+}
+}
+
+@media (min-width: 300px) {
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+		float: left;
+	}
+
+	.col-xs-1 {
+		width: 8.33%;
+	}
+
+	.col-xs-2 {
+		width: 16.66%;
+	}
+
+	.col-xs-3 {
+		width: 25%;
+	}
+
+	.col-xs-4 {
+		width: 32%;
+		margin-left: 10px;
+	}
+
+	.col-xs-5 {
+		width: 41.66%;
+	} 
+
+	.col-xs-6 {
+		width: 50%;
+	} 
+
+	.col-xs-7 {
+		width: 58.33%;
+	}
+
+	.col-xs-8 {
+		width: 66.66%;
+	}
+
+	.col-xs-9 {
+		width: 74.99%;
+	}
+
+	.col-xs-10 {
+		width: 83.33%;
+	} 
+
+	.col-xs-11{
+		width: 91.66%;
+	} 
+
+	.col-xs-12 {
+		width: 100%;
+	}
+
+}
